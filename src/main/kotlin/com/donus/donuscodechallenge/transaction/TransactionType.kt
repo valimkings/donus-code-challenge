@@ -13,7 +13,6 @@ import java.math.BigDecimal
 import java.math.BigDecimal.*
 import java.math.RoundingMode
 
-
 enum class TransactionType {
 
     DEPOSIT {

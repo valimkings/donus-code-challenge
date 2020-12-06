@@ -1,9 +1,7 @@
 package com.donus.donuscodechallenge.transaction.domain
 
 import com.donus.donuscodechallenge.transaction.TransactionType
-import org.springframework.data.annotation.CreatedDate
 import java.math.BigDecimal
-import java.time.Instant
 import java.time.LocalDateTime
 import java.util.*
 import javax.persistence.*

@@ -6,6 +6,4 @@ import org.springframework.stereotype.Repository
 import java.util.*
 
 @Repository
-interface TransactionRepository : JpaRepository<Transaction, UUID> {
-
-}
+interface TransactionRepository : JpaRepository<Transaction, UUID>
