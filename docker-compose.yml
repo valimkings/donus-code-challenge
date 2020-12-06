@@ -1,0 +1,10 @@
+version: '2'
+services:
+  postgres:
+    environment:
+      POSTGRES_DB: donus_code_challenge
+      POSTGRES_PASSWORD: donus_local
+      POSTGRES_USER: donus_local
+    image: "postgres:12"
+    ports:
+      - "5432:5432"
